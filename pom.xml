@@ -27,10 +27,6 @@
 			<version>1.2</version>
 		</dependency>
 	</dependencies>
-	<!-- An issue with Eclipse maven, if we do not add this to the pom every 
-		time we click maven update project, it will automatically set the compiler 
-		to be 1.5 in project setting The following config will automatically set 
-		the compiler to use java 1.8 whenever you click maven update project -->
 	<build>
 		<plugins>
 			<plugin>
